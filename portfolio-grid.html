@@ -11,6 +11,39 @@
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" href="css/plugins.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      /* Disable flip backface and overlay */
+      .square-flip .square2,
+      .square-flip:hover .square2,
+      .square-flip .flip-overlay {
+        display: none !important;
+      }
+      /* Keep front title always visible */
+      .square-flip .square .box-title {
+        opacity: 1 !important;
+        visibility: visible !important;
+      }
+      /* Remove all hover animations/effects */
+      .square-flip *,
+      .square-flip .square,
+      .square-flip .square.bg-img,
+      .square-flip .square .square-container,
+      .square-flip .square .box-title {
+        transition: none !important;
+        transform: none !important;
+      }
+      .square-flip:hover .square,
+      .square-flip:hover .square.bg-img,
+      .square-flip:hover .square .square-container,
+      .square-flip:hover .square .box-title {
+        transition: none !important;
+        transform: none !important;
+      }
+      .square-flip .square.bg-img {
+        background-position: center center;
+        background-size: cover;
+      }
+    </style>
   </head>
   <body>
     <!-- Preloader -->
@@ -121,20 +154,22 @@
         <div class="row">
           <div class="col-md-4">
             <div class="square-flip">
-              <div
-                class="square bg-img"
-                data-background="img/portfolio/1/12.jpg"
-              >
+              <a href="portfolio-gallery-1.html">
                 <div
-                  class="square-container d-flex align-items-end justify-content-end"
+                  class="square bg-img"
+                  data-background="img/portfolio/1/12.jpg"
                 >
-                  <div class="box-title">
-                    <h4>E & C</h4>
-                    <h6>Elton & Chrisma</h6>
+                  <div
+                    class="square-container d-flex align-items-end justify-content-end"
+                  >
+                    <div class="box-title">
+                      <h4>E & C</h4>
+                      <h6>Elton & Chrisma</h6>
+                    </div>
                   </div>
+                  <div class="flip-overlay"></div>
                 </div>
-                <div class="flip-overlay"></div>
-              </div>
+              </a>
               <div class="square2 bg-green">
                 <div class="square-container2">
                   <h4>Elton & Chrisma</h4>
@@ -159,20 +194,22 @@
           </div>
           <div class="col-md-4">
             <div class="square-flip">
-              <div
-                class="square bg-img"
-                data-background="img/portfolio/2/12.jpg"
-              >
+              <a href="portfolio-gallery-2.html">
                 <div
-                  class="square-container d-flex align-items-end justify-content-end"
+                  class="square bg-img"
+                  data-background="img/portfolio/2/12.jpg"
                 >
-                  <div class="box-title">
-                    <h4>I & R</h4>
-                    <h6>Irin & Renick</h6>
+                  <div
+                    class="square-container d-flex align-items-end justify-content-end"
+                  >
+                    <div class="box-title">
+                      <h4>I & R</h4>
+                      <h6>Irin & Renick</h6>
+                    </div>
                   </div>
+                  <div class="flip-overlay"></div>
                 </div>
-                <div class="flip-overlay"></div>
-              </div>
+              </a>
               <div class="square2 bg-green">
                 <div class="square-container2">
                   <h4>Irin & Renick</h4>
@@ -197,20 +234,22 @@
           </div>
           <div class="col-md-4">
             <div class="square-flip">
-              <div
-                class="square bg-img"
-                data-background="img/portfolio/3/12.jpg"
-              >
+              <a href="portfolio-gallery-3.html">
                 <div
-                  class="square-container d-flex align-items-end justify-content-end"
+                  class="square bg-img"
+                  data-background="img/portfolio/3/12.jpg"
                 >
-                  <div class="box-title">
-                    <h4>N</h4>
-                    <h6>Nirutha's Haldi</h6>
+                  <div
+                    class="square-container d-flex align-items-end justify-content-end"
+                  >
+                    <div class="box-title">
+                      <h4>N</h4>
+                      <h6>Nirutha's Haldi</h6>
+                    </div>
                   </div>
+                  <div class="flip-overlay"></div>
                 </div>
-                <div class="flip-overlay"></div>
-              </div>
+              </a>
               <div class="square2 bg-green">
                 <div class="square-container2">
                   <h4>Nirutha's Haldi</h4>
@@ -235,20 +274,22 @@
           </div>
           <div class="col-md-4">
             <div class="square-flip">
-              <div
-                class="square bg-img"
-                data-background="img/portfolio/4/10.jpg"
-              >
+              <a href="portfolio-gallery-4.html">
                 <div
-                  class="square-container d-flex align-items-end justify-content-end"
+                  class="square bg-img"
+                  data-background="img/portfolio/4/10.jpg"
                 >
-                  <div class="box-title">
-                    <h4>R</h4>
-                    <h6>Ron Nescini</h6>
+                  <div
+                    class="square-container d-flex align-items-end justify-content-end"
+                  >
+                    <div class="box-title">
+                      <h4>R</h4>
+                      <h6>Ron Nescini</h6>
+                    </div>
                   </div>
+                  <div class="flip-overlay"></div>
                 </div>
-                <div class="flip-overlay"></div>
-              </div>
+              </a>
               <div class="square2 bg-green">
                 <div class="square-container2">
                   <h4>Ron Nescini</h4>
@@ -273,20 +314,22 @@
           </div>
           <div class="col-md-4">
             <div class="square-flip">
-              <div
-                class="square bg-img"
-                data-background="img/portfolio/5/12.jpg"
-              >
+              <a href="portfolio-gallery-5.html">
                 <div
-                  class="square-container d-flex align-items-end justify-content-end"
+                  class="square bg-img"
+                  data-background="img/portfolio/5/12.jpg"
                 >
-                  <div class="box-title">
-                    <h4>S & A</h4>
-                    <h6>Sneha & Alex</h6>
+                  <div
+                    class="square-container d-flex align-items-end justify-content-end"
+                  >
+                    <div class="box-title">
+                      <h4>S & A</h4>
+                      <h6>Sneha & Alex</h6>
+                    </div>
                   </div>
+                  <div class="flip-overlay"></div>
                 </div>
-                <div class="flip-overlay"></div>
-              </div>
+              </a>
               <div class="square2 bg-green">
                 <div class="square-container2">
                   <h4>Sophia & Robert</h4>
@@ -311,20 +354,25 @@
           </div>
           <div class="col-md-4">
             <div class="square-flip">
-              <div class="square bg-img" data-background="img/couple/6.jpg">
+              <a href="portfolio-gallery-6.html">
                 <div
-                  class="square-container d-flex align-items-end justify-content-end"
+                  class="square bg-img"
+                  data-background="img/portfolio/6/14.jpg"
                 >
-                  <div class="box-title">
-                    <h4>O & J</h4>
-                    <h6>Blue House, London</h6>
+                  <div
+                    class="square-container d-flex align-items-end justify-content-end"
+                  >
+                    <div class="box-title">
+                      <h4>S & N</h4>
+                      <h6>Silsila & Nitish</h6>
+                    </div>
                   </div>
+                  <div class="flip-overlay"></div>
                 </div>
-                <div class="flip-overlay"></div>
-              </div>
+              </a>
               <div class="square2 bg-green">
                 <div class="square-container2">
-                  <h4>Olivia & John</h4>
+                  <h4>Silsila & Nitish</h4>
                   <p>
                     Lorem nissuam nestibulum duru quam the odion elementum
                     ceisue the misse varie natoque enatibus et dis monte.
